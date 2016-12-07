@@ -1,7 +1,585 @@
 <!DOCTYPE html>
-<html>
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+
+   <!--- Basic Page Needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Ceevee - Free Responsive HTML5/CSS3 Template</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+   <!-- Mobile Specific Metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+    ================================================== -->
+   <link rel="stylesheet" href="css/default.css">
+	<link rel="stylesheet" href="css/layout.css">
+   <link rel="stylesheet" href="css/media-queries.css">
+   <link rel="stylesheet" href="css/magnific-popup.css">
+
+   <!-- Script
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
+
+   <!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="favicon.png" >
+
+</head>
+
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+
+   <!-- Header
+   ================================================== -->
+   <header id="home">
+
+      <nav id="nav-wrap">
+
+         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+
+         <ul id="nav" class="nav">
+            <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+            <li><a class="smoothscroll" href="#about">About</a></li>
+	         <li><a class="smoothscroll" href="#resume">Resume</a></li>
+            <li><a class="smoothscroll" href="#portfolio">Works</a></li>
+         </ul> <!-- end #nav -->
+
+      </nav> <!-- end #nav-wrap -->
+
+      <div class="row banner">
+         <div class="banner-text">
+            <h1 class="responsive-headline">I'm Samanvoy Panati.</h1>
+            <h3>I'm a <span>software developer</span> with 1 year work experience. I like solving puzzles, coding and playing sports. Let's <a class="smoothscroll" href="#about">start scrolling</a>
+            and learn more <a class="smoothscroll" href="#about">about me</a>.</h3>
+            <hr />
+            <ul class="social">
+               <li><a href="https://www.facebook.com/samanvoy.panati" target="_blank"><i class="fa fa-facebook"></i></a></li>
+               <li><a href="https://www.linkedin.com/in/samanvoy-panati-b4554188?trk=nav_responsive_tab_profile_pic" target="_blank"><i class="fa fa-linkedin" target="_blank"></i></a></li>
+            </ul>
+         </div>
+      </div>
+
+      <p class="scrolldown">
+         <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
+      </p>
+
+   </header> <!-- Header End -->
+
+
+   <!-- About Section
+   ================================================== -->
+   <section id="about">
+
+      <div class="row">
+
+         <div class="three columns">
+
+            <img class="profile-pic"  src="images/rsz_sam.jpg" alt="" />
+
+         </div>
+
+         <div class="nine columns main-col">
+
+            <h2>About Me</h2>
+
+            <p>I got my Masters degree in Computer Science from University of Pittsburgh. I am currently working as a Software Engineer at M*Modal.
+            </p>
+
+            <div class="row">
+
+               <div class="columns contact-details">
+
+                  <h2>Contact Details</h2>
+                  <p class="address">
+						   <span>Samanvoy Panati</span><br>
+						   <span>239 Halket Street, Apt #2<br>
+						         Pittsburgh, PA, USA - 15213.
+                     </span><br>
+						   <span>(412)519-4288</span><br>
+                     <!-- <span>anyone@website.com</span> -->
+					   </p>
+
+               </div>
+
+               <div class="columns download">
+                  <p>
+                     <a href="Samanvoy-Resume.pdf" class="button" target="_blank"><i class="fa fa-download"></i>View Resume</a>
+                  </p>
+               </div>
+
+            </div> <!-- end row -->
+
+         </div> <!-- end .main-col -->
+
+      </div>
+
+   </section> <!-- About Section End-->
+
+
+   <!-- Resume Section
+   ================================================== -->
+   <section id="resume">
+
+      <!-- Education
+      ----------------------------------------------- -->
+      <div class="row education">
+
+         <div class="three columns header-col">
+            <h1><span>Education</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>University of Pittsburgh</h3>
+                  <p class="info">Masters in Computer Science <span>&bull;</span> <em class="date">May 2016</em></p>
+
+                  <p>
+                  Some courses:  Algorithm design, Operating systems, Principles of database design, Human computer interaction,
+				  Machine learning, Database management, Artificial intelligence
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Jawaharlal Nehru Technological University (J.N.T.U)</h3>
+                  <p class="info">Bachelor of Technology in Computer Science <span>&bull;</span> <em class="date">May 2014</em></p>
+
+                  <p>
+                  Some courses:  Design and analysis of algorithms, Compiler design, Data structures, Web development, Computer architecture,
+				  Software engineeing
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Education -->
+
+
+      <!-- Work
+      ----------------------------------------------- -->
+      <div class="row work">
+
+         <div class="three columns header-col">
+            <h1><span>Work</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>M*Modal</h3>
+                  <p class="info">Software Engineer <span>&bull;</span> <em class="date">June 2016 - Present</em></p>
+
+                  <p>
+                  Working on adding new features to MModal’s primary software, Fluency Direct which provides front end speech recognition solutions for clinical documentation.
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Parametric Technology Corporation (PTC), Greensburg, PA</h3>
+                  <p class="info">Software Developer Intern	 <span>&bull;</span> <em class="date">May 2015 - December 2015</em></p>
+
+                  <p>
+                  Worked on introducing new functionalities, rectified bugs and performed software testing automation for the reliability software called Windchill Quality Solutions. <br>
+				  Performed server integration and version control management.
+
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Work -->
+
+
+      <!-- Skills
+      ----------------------------------------------- -->
+      <div class="row skill">
+
+         <div class="three columns header-col">
+            <h1><span>Technical skills</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            
+				<div class="bars">
+
+				   <ul class="skills">
+						<li><span class="bar-expand level-four"></span><em>Java</em></li>
+						<li><span class="bar-expand level-three"></span><em>c#</em></li>
+						<li><span class="bar-expand level-four"></span><em>C</em></li>
+						<li><span class="bar-expand level-four"></span><em>C++</em></li>
+						<li><span class="bar-expand level-two"></span><em>Python</em></li>
+						<li><span class="bar-expand level-four"></span><em>Oracle</em></li>
+						<li><span class="bar-expand level-four"></span><em>HTML5</em></li>
+						<li><span class="bar-expand level-four"></span><em>CSS</em></li>
+						<li><span class="bar-expand level-four"></span><em>Javascript</em></li>
+						<li><span class="bar-expand level-three"></span><em>jQuery</em></li>
+					</ul>
+
+				</div><!-- end skill-bars -->
+
+			</div> <!-- main-col end -->
+
+      </div> <!-- End skills -->
+
+   </section> <!-- Resume Section End-->
+
+
+   <!-- Portfolio Section
+   ================================================== -->
+   <section id="portfolio">
+
+      <div class="row">
+
+         <div class="twelve columns collapsed">
+
+            <h1>Check Out Some of My Works.</h1>
+
+            <!-- portfolio-wrapper -->
+            <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
+
+			    <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-01" title="">
+                        <img alt="" src="images/portfolio/rsz_mpg.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Mobile Personal Guide</h5>
+                              <p>Digital city guide</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+				
+          	   <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-02" title="">
+                        <img alt="" src="images/portfolio/android.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Spritz-It!!</h5>
+                              <p>Android app</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-03" title="">
+                        <img alt="" src="images/portfolio/rsz_swipe_keyboard.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Swipe keyboard</h5>
+                              <p>Java application</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-04" title="">
+                        <img alt="" src="images/portfolio/rsz_rating.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Movie rating recommender</h5>
+                              <p>Machine Learning</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-05" title="">
+                        <img alt="" src="images/portfolio/Mini_Google.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Mini Google</h5>
+                              <p>Mini search engine</p>
+                               </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-06" title="">
+                        <img alt="" src="images/portfolio/rsz_sos.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>SOS</h5>
+                              <p>Android app</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+            </div> <!-- portfolio-wrapper end -->
+
+         </div> <!-- twelve columns end -->
+
+
+         <!-- Modal Popup
+	      --------------------------------------------------------------- -->
+		<div id="modal-01" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-girl.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Mobile Personal Guide (MPG)</h4>
+			      <p>MPG is a prototype implementation of an experimental platform for evaluating item recommendation algorithms. 
+				  It provides a diverse set of recommendation better aligned with user preferences. A paper published on this project can be 
+				  accessed <a href = "MPG_vldb2016_demo.pdf" target="_blank">here</a>. A demonstration can be found
+				  <a href = "https://www.youtube.com/watch?v=-lZZns7sQmM" target="_blank">here</a>.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Databases, php, html5, css, javascript, jQuery</span>
+		      </div>
+
+            <div class="link-box">
+               <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-01 End -->
+		  
+         <div id="modal-02" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-coffee.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Spritz-It!!</h4>
+			      <p>Developed an android app which can be used in smart watch for reading text. It uses spritzing technique along with three feed forward mechanisms to improve the reading comprehensibility of the user.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Android development, Research</span>
+		      </div>
+
+            <div class="link-box">
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-02 End -->
+
+         <div id="modal-03" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-console.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Swipe Keyboard</h4>
+			      <p>Developed a swipe keyboard with a special right click feature to reduce the number of incorrect predictions and thereby decreases the error rate. A Demo can be found at <a href="https://www.youtube.com/watch?v=BzDrLLoHlS4">here.</a></p>
+               <span class="categories"><i class="fa fa-tag"></i>Java development</span>
+		      </div>
+
+            <div class="link-box">
+                 <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-03 End -->
+
+         <div id="modal-04" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-judah.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Movie rating recommender</h4>
+			      <p>Individual project in which based on the ratings of a limited number of persons on limited number of movies, we predict the best rating a person would give for a wide variety of movies which can be used for recommendation as it is done in Netflix.</br>
+					This project was done using Matlab and different machine learning techniques like k nearest neighbors, stochastic gradient descent; Singular Value Decomposition and SVD++ were used.
+				  </p>
+               <span class="categories"><i class="fa fa-tag"></i>Machine Learning, Matlab</span>
+		      </div>
+
+            <div class="link-box">
+               <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-04 End -->
+
+         <div id="modal-05" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-intothelight.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Mini-Google</h4>
+			      <p>“Mini-Google” is a simple search engine which retrieves the documents relevant to the simple search queries submitted by users. This search engine is implemented using two different platforms.
+					The first platform uses socket-based client-server communication using a traditional file system and the second one uses MapReduce and Hadoop running on a Linux cluster.
+				  </p>
+               <span class="categories"><i class="fa fa-tag"></i>C, C++, Hadoop</span>
+		      </div>
+
+            <div class="link-box">
+               <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-05 End -->
+
+         <div id="modal-06" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-farmerboy.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>SOS</h4>
+			      <p>	Developed an android app named SOS which helps a person in danger by discretely sending out a distress signal to his friends.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Android Development</span>
+		      </div>
+
+            <div class="link-box">
+               <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-06 End -->
+
+
+      </div> <!-- row End -->
+
+   </section> <!-- Portfolio Section End-->
+
+
+
+   <!-- Testimonials Section
+   ================================================== -->
+   <section id="testimonials">
+
+      <div class="text-container">
+
+         <div class="row">
+
+            <div class="two columns header-col">
+
+               <h1><span>Client Testimonials</span></h1>
+
+            </div>
+
+            <div class="ten columns flex-container">
+
+               <div class="flexslider">
+
+                  <ul class="slides">
+
+                     <li>
+                        <blockquote>
+                           <p>Everybody is a genius. But if you judge a fish by its ability to climb a tree, it will live its whole life believing that it is stupid.
+                           </p>
+                           <cite>Albert Einstein</cite>
+                        </blockquote>
+                     </li> <!-- slide ends -->
+
+					 <li>
+                        <blockquote>
+                           <p>If you can dream it, you can do it
+                           </p>
+                           <cite>Walt Disney</cite>
+                        </blockquote>
+                     </li> <!-- slide ends -->
+					 
+                     <li>
+                        <blockquote>
+                           <p>Try and try until you succeed
+                           </p>
+                        </blockquote>
+                     </li> <!-- slide ends -->
+
+                  </ul>
+
+               </div> <!-- div.flexslider ends -->
+
+            </div> <!-- div.flex-container ends -->
+
+         </div> <!-- row ends -->
+
+       </div>  <!-- text-container ends -->
+
+   </section> <!-- Testimonials Section End-->
+
+   <!-- footer
+   ================================================== -->
+   <footer>
+
+      <div class="row">
+
+         <div class="twelve columns">
+
+            <ul class="social-links">
+               <li><a href="https://www.facebook.com/samanvoy.panati" target="_blank"><i class="fa fa-facebook"></i></a></li>
+               <li><a href="https://www.linkedin.com/in/samanvoy-panati-b4554188?trk=nav_responsive_tab_profile_pic" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+
+            <ul class="copyright">
+               <li>Template from Ceevee</li>
+               <li>Edited by Samanvoy Panati</a></li>   
+            </ul>
+
+         </div>
+
+         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+
+      </div>
+
+   </footer> <!-- Footer End-->
+
+   <!-- Java Script
+   ================================================== -->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+
+   <script src="js/jquery.flexslider.js"></script>
+   <script src="js/waypoints.js"></script>
+   <script src="js/jquery.fittext.js"></script>
+   <script src="js/magnific-popup.js"></script>
+   <script src="js/init.js"></script>
+
 </body>
+
 </html>
